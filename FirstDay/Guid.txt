@@ -1,0 +1,2 @@
+tsc -h : To Display All Commands to use it with TS
+tsc --init : To Create TS Configuration File
