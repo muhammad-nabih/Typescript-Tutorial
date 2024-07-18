@@ -163,7 +163,7 @@ class Amazon extends Player {
     console.log("Attacking with spears ...");
   }
 }
-
+ 
 class Barbarian extends Player {
   constructor(name: string, public axeDurability: number) {
     super(name);

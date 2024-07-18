@@ -1,6 +1,7 @@
 {
   "cSpell.words": [
     "EXMAPLE",
+    "Gamming",
     "Reus",
     "أجزاء",
     "أخرى",
@@ -320,5 +321,6 @@
     "يوجد",
     "يوفر"
   ],
-  "commentTranslate.source": "Google"
+  "commentTranslate.source": "Google",
+  "commentTranslate.targetLanguage": "en"
 }
