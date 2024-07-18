@@ -88,7 +88,6 @@ console.log(" ".repeat(20));
 console.log("_________ End of Section THREE __________");
 console.log(" ".repeat(10));
 // __________________ END SECTION THREE __________________
-
 // __________________ START SECTION FOUR __________________
 console.log("_________ Section FOUR __________");
 console.log(" ".repeat(10));
@@ -105,9 +104,7 @@ interface Game extends Omit<Book, "bookNumber"> {
 }
 
 class Collection<T> {
-  constructor(public data: T[]) {
-    this.data = [];
-  }
+  constructor(public data: T[] = []) { }
 
   addItem(item: T): void {
     this.data.push(item);
@@ -117,7 +114,7 @@ class Collection<T> {
 const CollectionOne = new Collection<Book>();
 
 CollectionOne.addItem({
-  itemsType: "Book One ",
+  itemsType: "Book One",
   title: "The Atomic Habits",
   bookNumber: 200,
 });
@@ -125,7 +122,7 @@ CollectionOne.addItem({
 const CollectionTwo = new Collection<Game>();
 
 CollectionTwo.addItem({
-  itemsType: "GammingMobile ",
+  itemsType: "GammingMobile",
   title: "FreeFire",
   price: 300,
   isFree: true,
